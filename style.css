@@ -1,0 +1,101 @@
+  body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+
+        }
+        .form-container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+           
+        }
+      
+        h1 {
+            text-align: center;
+            color:black;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: black;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+            height: 60px;
+        }
+        .group-label {
+            display:block ;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: black;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        
+        .radio-option {
+            display: inline-flex;
+            align-items: center;
+            font-weight: 400;
+            cursor: pointer;
+            color: black;
+            gap: 0.25rem; 
+        }
+
+        .radio-option input {
+            cursor: pointer;
+        }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #1c4a7b;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .toggle-link {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .toggle-link a {
+            color: #007bff;
+        
+        }
+        .toggle-link a:hover {
+            text-decoration: underline;
+        }
+        a{
+            text-decoration: none;
+        }
